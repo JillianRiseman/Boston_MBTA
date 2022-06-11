@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8 />
+  <title>Brockton, Massachusetts School Zones</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #000000;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      color: #ff0000;
+    }
+
+    section {
+      width: 80%;
+      margin: 10px auto;
+    }
+
+    h1 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 2.5em;
+      /* The em unit. 2.5x the current size */
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      color: rgb(255, 0, 0);
+      font-size: 1.25em;
+      letter-spacing: .04em;
+    }
+
+    p {
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+
+    a {
+      color: #0099ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 10px 0
+    }
+
+    #map {
+      width: 100%;
+      margin: 0px auto;
+
+    }
+
+    .max-image-width {
+      width: 100%;
+    }
+
+
+    .linkbox {
+      margin: 3px 0 20px 0;
+      display: block;
+      font-weight: 300;
+    }
+
+    hr {
+      border: 0px;
+      border-bottom: 1px solid #3d3d3d;
+      padding-top: 20px;
+    }
+
+    /* Use float property to make two-column layout. */
+
+    .first-column {
+      float: left;
+      width: 48%;
+      padding-right: 20px;
+    }
+
+    .column {
+      float: left;
+      width: 48%;
+    }
+
+    /* Clear floats after the columns */
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* When browser is 800px wide or less */
+
+    @media screen and (max-width: 800px) {
+      .first-column,
+      .column {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Add map to top of page and make it stretch to fill browser window. -->
+  <img class="max-image-width" src="../Brockton_MA_1200px.png">
+
+  <!-- Create a two column layout for map information. -->
+  <section>
+    <a href='../Brockton_MA_8000px.png' class="linkbox">Full screen version</a>
+
+    <h1>Brockton School Zones</h1>
+    <h2>Authored by: Jillian Riseman</h2>
+
+    <div class="row">
+      
+      <!-- First column, the left half -->
+      <div class="first-column">
+        <p>I grew up in Brockton, Massachusetts, the largest Massachusetts city outside of the Metro Boston Area. The city is historically underserved immigrant and low-income communities, lacking in funding and access to resources. For this week's project, I mapped a 1-mile buffer around each data point labled "school", to highlight the public parks and other amenities that are located within school-zones. It is statistically important for urban areas to have equitable access to green spaces to provide enrichment opportunities for residents, and from this map, you can see that public parks are not evenly distributed around this city. Many of Brockton's parks are very small and clustered in the center of the city, with a few larger green spaces in the suburbs. There are very few parks in the north, east, and south, which can contribute to environmental issues like the increased temperatures and flooding that many neighborhoods experience. </p>
+        <p> Data Sources from ESRI Standard Open Street Maps and images sourced from <a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F0%2F0b%2FD.W._Field_Park%252C_Brockton_MA.jpg&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AD.W._Field_Park%2C_Brockton_MA.jpg&tbnid=bmMwfM-mVAPEuM&vet=12ahUKEwjA8qezuI34AhWzGFkFHZ3HDKEQMygEegUIARCUAg..i&docid=43kiyWlSmCUxxM&w=2816&h=2112&q=brockton%20ma&hl=en&ved=2ahUKEwjA8qezuI34AhWzGFkFHZ3HDKEQMygEegUIARCUAg">Wikipedia</a> and <a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Flive.staticflickr.com%2F3756%2F9068483928_5201d49819_b.jpg&imgrefurl=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fmasstravel%2F9068483928&tbnid=V5CbMyFA-NYUNM&vet=12ahUKEwjA8qezuI34AhWzGFkFHZ3HDKEQMygpegUIARCIAw..i&docid=135KO3tc6IoPkM&w=1024&h=701&q=brockton%20ma&hl=en&ved=2ahUKEwjA8qezuI34AhWzGFkFHZ3HDKEQMygpegUIARCIAw">Flickr.com.</a></p>
+        <br> <!-- line break tag -->
+        <p>This map used only data sourced from ESRI Standard OSM, which may not be a fully accurate representation of every single amenity or school in Brockton, MA. </p>
+      </div>
+      
+      <!-- Second column, the right half -->
+      <div class="column">
+        <!-- Challenge map -->
+        <img class="max-image-width" src="../campanellistadium.jpg">
+        <p class="linkbox">Campanelli Stadium, built in 2002 and home of the Brockton Rox Independent League baseball team</p>
+
+        <!-- Challenge photograph -->
+        <img class="max-image-width" src="../dwfieldpark.jpg">
+        <p class="linkbox">D.W. Field Park, Brockton's largest public park located in the northwest suburbs of the city</p>
+
+      </div>
+    </div>
+
+    <h3>Map details</h3>
+    <p>The above map was made using QGIS 3.22.6 geoprocessing tools; Coordinate Reference System EPSG 26986 Massachusetts Mainland</p>
+
+    <p>
+      University of Kentucky New Maps Plus, Spring 2022.
+    </p>
+    <hr>
+    <ul>
+      <li>See my projects on GitHub: <a href="https://github.com/JillianRiseman?tab=projects">Jillian's Projects</a></li>
+			<li>Follow me on LinkedIn: <a href="https://www.linkedin.com/in/jbriseman/">Jillian Riseman</a></li>
+			<li>Contact me at <a href=Jillian.riseman@uky.edu>jillian.riseman@uky.edu</a></li>
+    </ul>
+  </section>
+
+</body>
+</html>
