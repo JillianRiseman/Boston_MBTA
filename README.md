@@ -1,5 +1,7 @@
 # Boston_MBTA
 
+Expanding Access to Public Transportation in Boston, Massachusetts
+
 My final project looks at the Metro Boston Transit Authority (MBTA) and state-designated Environmental Justice communities in Massachusetts.
 
 An Environmental Justice Community is defined by the Commonwealth of Massachusetts if one or more of the following four criteria are true:
