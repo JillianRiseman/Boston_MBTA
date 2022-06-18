@@ -41,7 +41,7 @@ I have also saved a new style in my repo for colorizing the different train stop
 ![styling train stations](graphics/MBTAstyle.png)  
 *MBTA Style*
 
-For this project I want to mainly focus on the rapid transit trains rather than buses because the bus system provides a significantly less reliable service and is dependent a far more factors (traffic, weather, road construction, etc.) than the trains. If my map is about effective accessibility, expanding train services would have a much greater impact on underserved communities than additional bus stops and routes, (in my opinion). 
+For this project I want to mainly focus on the rapid transit trains rather than buses because the bus system provides a significantly less reliable service and is dependent on far more factors (traffic, weather, road construction, etc.) than the trains. If my map is about effective accessibility, expanding train services would have a much greater impact on underserved communities than additional bus stops and routes, (in my opinion). 
 
 Now that the map layers are in order and styled, I want to take a look at areas that are within .5 miles of any train stations, which would be about a 10-minute walk. I started with using buffers to identify what that radius looks like.
 
@@ -53,7 +53,7 @@ After changing the style, I can start to see what areas are lacking rapid-transi
 ![adding 1 mile buffer](graphics/1milebuffer.png)  
 *Adding Buffers*
 
-Looking at the map now and the buffered areas, You can see gaps in service to the north in Chelsea, Everett, and Revere, West in Somerville and Medford, and South Boston going all the way towards Deadham and Quincy. 
+Looking at the map now and the buffered areas, you can see gaps in service to the north in Chelsea, Everett, and Revere, West in Somerville and Medford, and South Boston going all the way towards Deadham and Quincy. 
 
 Idealy, I would love to look at the relative population density of these areas and compare the population densities of the underserved areas. Instead, I've symbolized the Environmental Justice Block Groups on a gradient by Median Household Income to think about community needs and what neighborhoods might be in greater need of expanded service. I inverted the gradient to show areas with the lowest income as the darkest most noticable color, indicating the highest need. I then edited the ranges to round it out a bit. 
 
@@ -67,7 +67,7 @@ By looking at this new colorized view of the EJ Block Groups, I can see where th
 
 Right away 5 areas stick out to me as spots with inadequate train access - north between Malden's Orange Line and Revere's Blue Line, northwest beween Malden and Cambridge, west from Watertown to Waltham, south through Dedham as an Orange or Red Line extension, and southeast of Quincy into Weymouth. 
 
-Though not reflected in this data, earlier this year the MBTA ceebrated the opening of the Green Line Extension. This years-long process was approved in 2017 and will provide service northward from the Lechmere stop in Cambride through that Somerville-Medford gap to the northwest of Boston. View details of the project here: https://www.mbta.com/projects/green-line-extension-glx
+Though not reflected in this data, earlier this year the MBTA celebrated the opening of the Green Line Extension. This years-long process was approved in 2017 and will provide service northward from the Lechmere stop in Cambride through that Somerville-Medford gap to the northwest of Boston. View details of the project here: https://www.mbta.com/projects/green-line-extension-glx
 
 ![Somerville-Medford](graphics/everett-revere-closeup.png)  
 *Northern Service Gaps*
@@ -77,7 +77,7 @@ Taking a close look at that area on my map though, you can see that there are no
 ![South Boston](graphics/south-boston-closeup.png)  
 *Southern Service Gaps*
 
-One thing to address about this map is the dark area east of Winthrop, where much of this EJ group is actually water but includes a bit of coast and isands with very low but highly vulnerable populations. This causes a bit of an anomoly with how to interperet this data, as many other parts of Winthrop are actually quite wealthy. The status as an Environmental Justice Population refers more to geological vulnerabilities, as much of this area would be devastated by sea-level rise or prolonged severe weather events. Additionally, many utility companies operate in this area, meaning surrounding communities may be impacted by a change in safety or function to this area, which greaty increases its vulnerability.
+One thing to address about this map is the dark area east of Winthrop, where much of this EJ group is actually water but includes a bit of coast and islands with very low but highly vulnerable populations. This causes a bit of an anomaly with how to interperet this data, as many other parts of Winthrop are actually quite wealthy. The status as an Environmental Justice Population refers more to geological vulnerabilities, as much of this area would be devastated by sea-level rise or prolonged severe weather events. Additionally, many utility companies operate in this area, meaning surrounding communities may be impacted by a change in safety or function to this area, which greaty increases its vulnerability.
 
 I've used all this information to create a web page that highlights this anaysis of the Metro Boston Area. 
 
