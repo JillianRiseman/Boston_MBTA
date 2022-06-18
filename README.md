@@ -9,7 +9,7 @@ An Environmental Justice Community is defined by the Commonwealth of Massachuset
 1. The annual median household income is not more than 65 per cent of the statewide annual median household income
 2. Minorities comprise 40 per cent or more of the population
 3. 25 per cent or more of households lack English language proficiency
-<br>line break<br>
+<br>
 *or*
 4. Minorities comprise 25 per cent or more of the population and the annual median household income of the municipality in which the neighborhood is located does not exceed 150 per cent of the statewide annual median household income.
  
@@ -26,7 +26,7 @@ There are a number of zip files I dowloaded from these pages to start my map. In
 3. Protected and Recreational Open Space (Conservation/Recreation)
 4. MBTA Rapid Transit (Infrastructure)
 
-Many of these zip files have multiple shapefiles in them, several of which may be useful. All the State-sourced Massachusetts data uses the Coordinate Reference System for the Massachusetts Mainand which is CRS EPSG:26986, so I set my CRS before opening any layers. For my projects, I used townssurvey_shp — TOWNSSURVEY_POLYM_GENCOAST.shp, ej2020 — EJ_2020_POLY.shp, openspace — OPENSPACE_POLY.shp, and mbta_rapid_transit — MBTA_NODE.shp. It's helpful to rename them now so they can be distinguished from the others that I don't use. I don't always remove extra layers in case they may be helpful later on.
+Many of these zip files have multiple shapefiles in them, several of which may be useful. All state-sourced Massachusetts data uses the Coordinate Reference System for the Massachusetts Mainand which is CRS EPSG:26986, so I set my CRS before opening any layers. For my projects, I used townssurvey_shp — TOWNSSURVEY_POLYM_GENCOAST.shp, ej2020 — EJ_2020_POLY.shp, openspace — OPENSPACE_POLY.shp, and mbta_rapid_transit — MBTA_NODE.shp. It's helpful to rename them now so they can be distinguished from the others that I don't use. I don't always remove extra layers in case they may be helpful later on.
 
 ![renaming layers](graphics/layer%20names.png)  
 *Renaming Layers*
@@ -72,14 +72,15 @@ Though not reflected in this data, earlier this year the MBTA celebrated the ope
 ![Somerville-Medford](graphics/everett-revere-closeup.png)  
 *Northern Service Gaps*
 
-Taking a close look at that area on my map though, you can see that there are not many block groups in that gap of service that are at the lowest income level, and those that are, are just north of where the extension stops. Looking closer at some of the other gaps in service around the city, we can see several low-income areas in Everett, Malden, and Revere that are just outside of reasonable access to service. Simiarly, there are major service gaps south of Boston between the Orange and Red Lines where there are many neighborhoods in the lowest median income category, that could greatly benefit from increased access to rapid transit.
+Taking a close look at that area on my map though, you can see that there are not many block groups in that gap of service that are at the lowest income level, and those that are, are still just north of where the extension stops. Looking closer at some of the other gaps in service around the city, we can see several low-income areas in Everett, Malden, and Revere that are just outside of reasonable access to service. Simiarly, there are major service gaps south of Boston between the Orange and Red Lines where there are many neighborhoods in the lowest median income category, that could greatly benefit from increased access to rapid transit.
 
 ![South Boston](graphics/south-boston-closeup.png)  
 *Southern Service Gaps*
 
 One thing to address about this map is the dark area east of Winthrop, where much of this EJ group is actually water but includes a bit of coast and islands with very low but highly vulnerable populations. This causes a bit of an anomaly with how to interperet this data, as many other parts of Winthrop are actually quite wealthy. The status as an Environmental Justice Population refers more to geological vulnerabilities, as much of this area would be devastated by sea-level rise or prolonged severe weather events. Additionally, many utility companies operate in this area, meaning surrounding communities may be impacted by a change in safety or function to this area, which greaty increases its vulnerability.
 
-I've used all this information to create a web page that highlights this anaysis of the Metro Boston Area. 
+I've used all this information to create a web page that highlights this anaysis of the Metro Boston Area which can be viewed here: https://github.com/JillianRiseman/Boston_MBTA/blob/main/index.html
+
 
 
 
