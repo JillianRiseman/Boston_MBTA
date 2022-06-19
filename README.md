@@ -79,7 +79,7 @@ Taking a close look at that area on my map though, you can see that there are no
 
 One thing to address about this map is the dark area east of Winthrop, where much of this EJ group is actually water but includes a bit of coast and islands with very low but highly vulnerable populations. This causes a bit of an anomaly with how to interperet this data, as many other parts of Winthrop are actually quite wealthy. The status as an Environmental Justice Population refers more to geological vulnerabilities, as much of this area would be devastated by sea-level rise or prolonged severe weather events. Additionally, many utility companies operate in this area, meaning surrounding communities may be impacted by a change in safety or function to this area, which greaty increases its vulnerability.
 
-I've used all this information to create a web page that highlights this anaysis of the Metro Boston Area which can be viewed here: https://github.com/JillianRiseman/Boston_MBTA/blob/main/index.html
+I've used all this information to create a web page that highlights this anaysis of the Metro Boston Area which can be viewed here: https://jillianriseman.github.io/Boston_MBTA/
 
 
 
